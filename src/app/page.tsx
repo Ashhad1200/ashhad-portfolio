@@ -1,10 +1,10 @@
-import { TypewriterEffectSmoothDemo } from "./main-components/intro";
-import { NavbarDemo } from "./main-components/navBar";
+import { MainPage } from "./main-components/mainPage";
+
+
 export default function Home() {
   return (
-   <>
-        <NavbarDemo/>
-        <TypewriterEffectSmoothDemo />
-   </>
+
+     < MainPage />
+   
   );
 }
